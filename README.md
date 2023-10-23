@@ -18,7 +18,7 @@ La acción ECR-Docker es una acción compuesta diseñada para construir una imag
 * `image`:  Imagen ECR con nombre completo y etiqueta
 
 
-##Ejemplo
+## Ejemplo
 
 ```yaml
 name: ECR Docker Build and Push
