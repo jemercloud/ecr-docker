@@ -3,7 +3,6 @@
 La acción ECR-Docker es una acción compuesta diseñada para construir una imagen Docker del repositorio actual y luego enviarla a un repositorio especificado de Amazon Elastic Container Registry (ECR).
 
 ### Características
-* Hace el checkout del código fuente con actions/checkout@v4.
 * Inicia sesión en Amazon ECR usando aws-actions/amazon-ecr-login@v2.
 * Genera metadatos para Docker con docker/metadata-action@v4.
 * Configura el entorno de construcción con docker/setup-buildx-action@v2.
